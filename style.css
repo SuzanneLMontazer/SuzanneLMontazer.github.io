@@ -4,6 +4,30 @@ color: #0061ae;
         font style:2em "Open Sans", sans-serif;
         font size: 24px;
        font-weight: 300;
+    
+    ul.navigation {
+        background-color: white;
+        display: block;
+        list-style: none;
+        margin-top: 0;
+        width: 100%;
+        height: 35px;
+    }
+    ul.navigation li {
+        display: inline-block;
+        float: left;
+    }
+    ul.navigation a {
+        color: black;
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+    }
+    
+    ul.navigation a: hover {
+        background-color: black;
+        color: white;
+    }
 }
 body {
     background-attachment: fixed;
