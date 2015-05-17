@@ -14,7 +14,7 @@ var showSection2 = function() {
     section2.style.diplay = "block";
 };
 button1.addEventListener("click", function(e){
-  showSections2();
+  showSection2();
 });
 button2.addEventListener("click", function(e) {
   showSection1();
