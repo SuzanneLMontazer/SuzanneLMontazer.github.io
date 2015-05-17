@@ -14,10 +14,10 @@ var showSection2 = function() {
     section2.style.diplay = "block";
 };
 button1.addEventListener("click", function(e){
-    showSections2();
+  showSections2();
 });
 button2.addEventListener("click", function(e) {
-  showSection1()
+  showSection1();
 });
 
 showSection1();
